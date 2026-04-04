@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 40px;
+}
+
+.search {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 16px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.error {
+  color: red;
+}
